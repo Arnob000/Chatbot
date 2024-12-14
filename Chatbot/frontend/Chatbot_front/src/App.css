@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  width: 40vw; 
+  height: 80vh;
+  margin: auto; 
+  margin-top: calc((100vh - 80vh) / 2); 
+}
+
+.guide {
+  color: #21b8a9;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+}
+
+.head h1{
+  margin: 0;
+}
+
+.head-icon{
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.file-upload-section,
+.chat-section {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  background-color: #f0eeee;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
+.App > .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
